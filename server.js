@@ -2,7 +2,7 @@
 
 const express=require('express')
 const app=express()
-app.get('/',(req,res)=>res.send("hello"));
+app.get('/',(req,res)=>res.send("hello world"));
 app.get('/html',(req,res)=>res.send("First Express"));
 app.get('/json',(req,res)=>res.send({
     name:"hello",
